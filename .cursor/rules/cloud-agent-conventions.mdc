@@ -1,0 +1,13 @@
+---
+description: Always-on conventions for Cloud Agents using this personal skills repo
+alwaysApply: true
+---
+
+# Cloud agent conventions
+
+- This repo is the default Cloud Agent workspace. Skills live in `.cursor/skills/`; do not look in `~/.cursor`.
+- Use the Atlassian HTTP MCP for Jira and Confluence. Authenticate at cursor.com/agents if a tool returns `needsAuth`.
+- Read the existing page or issue before changing it. Do not invent keys, IDs, or content.
+- Ask before creating a Jira issue or Confluence page unless the user explicitly asked to create one.
+- Never commit secrets, tokens, or environment files.
+- From Slack, skills are invoked in natural language (`use update-confluence-page`), not IDE slash commands.
